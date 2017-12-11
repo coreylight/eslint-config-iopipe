@@ -2,10 +2,10 @@ module.exports = {
   extends: ['prettier'],
   env: {
     browser: true,
-    node: true,
+    node: true
   },
   rules: {
-    camelcase: [2, {properties: 'always'}],
+    camelcase: [2, { properties: 'always' }],
     'capitalized-comments': 0, // wHO CaRes?
     'consistent-this': 0, // Too many use-cases for reassigning "this" to different values
     'func-names': 2,
@@ -17,18 +17,20 @@ module.exports = {
     'id-match': [
       2,
       // camelCase, PascalCase, __filename, CONST_VALUE, stream$, $el
-      '^\\$?(__)?(([A-Z]|[a-z]|[0-9]+)|([A-Z_]))*\\$?$',
+      '^\\$?(__)?(([A-Z]|[a-z]|[0-9]+)|([A-Z_]))*\\$?$'
     ],
     'linebreak-style': [2, 'unix'],
     'line-comment-position': 0,
     'lines-around-comment': 0,
     'lines-around-directive': 0,
+    'lines-between-class-members': 0,
     'max-depth': [2, 4],
-    'max-lines': [2, {max: 500, skipBlankLines: false, skipComments: false}],
+    'max-lines': [2, { max: 500, skipBlankLines: false, skipComments: false }],
     'max-nested-callbacks': [2, 5],
     'max-params': [2, 5],
-    'max-statements-per-line': [2, {max: 1}],
+    'max-statements-per-line': [2, { max: 1 }],
     'max-statements': [2, 30],
+    'multiline-comment-style': 0,
     'new-cap': 2,
     'newline-after-var': 0,
     'newline-before-return': 0,
@@ -46,13 +48,13 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-unneeded-ternary': 2,
     'object-shorthand': [2, 'properties'], // methods are optional so you can specify a name if you want
-    'one-var': [2, {uninitialized: 'always', initialized: 'never'}],
+    'one-var': [2, { uninitialized: 'always', initialized: 'never' }],
     'operator-assignment': 0, // readability on a case-by-case basis
     'padding-line-between-statements': 0, // meh...
     'prefer-destructuring': 0, // nah, I like it, but not that much...
     'require-jsdoc': 0,
     'sort-keys': 0,
     'sort-vars': 0,
-    'spaced-comment': 0,
-  },
-}
+    'spaced-comment': 0
+  }
+};
