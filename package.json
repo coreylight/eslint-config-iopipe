@@ -37,9 +37,8 @@
   "homepage": "https://github.com/iopipe/eslint-config-iopipe#readme",
   "dependencies": {
     "babel-eslint": "^8.0.1",
-    "babel-plugin-module-resolver": "^2.7.1",
     "eslint-config-prettier": "^2.6.0",
-    "eslint-import-resolver-babel-module": "^3.0.0",
+    "eslint-import-resolver-babel-module": "^2.2.1",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.7.0",
