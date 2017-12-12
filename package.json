@@ -1,6 +1,6 @@
 {
   "name": "@iopipe/eslint-config-iopipe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint rules",
   "main": "index.js",
   "scripts": {
