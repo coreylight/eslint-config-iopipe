@@ -1,6 +1,6 @@
 {
   "name": "@iopipe/eslint-config-iopipe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rules",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,6 @@
     "styleguide"
   ],
   "author": "IOpipe <dev@iopipe.com> (http://iopipe.com/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iopipe/eslint-config-iopipe/issues"
   },
